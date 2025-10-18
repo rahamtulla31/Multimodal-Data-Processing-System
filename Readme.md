@@ -8,8 +8,7 @@ The system is designed with **Streamlit** for an intuitive web-based interface a
 
 ## 🖥️ OS Support
 - ✅ Windows 10/11  
-- ✅ Linux (Ubuntu / Debian-based)  
-- ✅ macOS (I'm not that rich)
+- ✅ Linux (Ubuntu / Debian-based) 
 
 ---
 
@@ -17,6 +16,7 @@ The system is designed with **Streamlit** for an intuitive web-based interface a
 Before installation, make sure you have the following:
 - **Python 3.10 – 3.13**
 - **pip** (latest version)
+- **Streamlit**
 - **Tesseract OCR engine**
   - Windows: `choco install tesseract ffmpeg`
   - Linux: `sudo apt install tesseract-ocr`
@@ -29,7 +29,7 @@ Before installation, make sure you have the following:
 
 2. **Open a terminal inside the project folder.**
 
-3. **Create and activate a virtual environment:**
+3. **Create and activate a virtual environment: (If You Want)**
 
    ```bash
    python -m venv venv
@@ -37,11 +37,15 @@ Before installation, make sure you have the following:
    # or
    source venv/bin/activate    # For Linux/Mac
 ---
-
+## Set Gemini API Key
+**You have set Gemini API in Environmetal Variables. YOu can get Gemini API from Google AI studio**
+- Windows: `set GEMINI_API_KEY=your_api_key_here`
+- Linux: `export GEMINI_API_KEY=your_api_key_here`
+---
 ## Install All Dependencies
-
-**pip install -r requirements.txt**
-
+ ```
+pip install -r requirements.txt
+```
 ---
 
 ## ▶️ Execution Steps
@@ -56,5 +60,6 @@ streamlit run main.py
 1. **Developer: Shaik Rahamtulla**
 2. **EMail: rahamtullawork@gmail.com**
 **If you face any issues or errors, please mail me directly for support.**
+
 
 ---
