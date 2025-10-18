@@ -59,7 +59,8 @@ streamlit run main.py
 ## 📬 Contact Information
 1. **Developer: Shaik Rahamtulla**
 2. **EMail: rahamtullawork@gmail.com**
-**If you face any issues or errors, please mail me directly for support.**
+3. **If you face any issues or errors, please mail me directly for support.**
 
 
 ---
+
